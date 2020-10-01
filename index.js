@@ -1,3 +1,3 @@
 console.log('CI');
 
-console.log('Maintaining this code is hard man')
+console.log('THIS IS A BREAKING CHANGE')
