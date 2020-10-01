@@ -1,0 +1,19 @@
+{
+  "name": "ci-semantic-tester",
+  "version": "0.0.0-development",
+  "description": "Test Repo for CI and semantic versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarosaburido/ci-semantic-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarosaburido/ci-semantic-tester/issues"
+  },
+  "homepage": "https://github.com/alvarosaburido/ci-semantic-tester#readme"
+}
