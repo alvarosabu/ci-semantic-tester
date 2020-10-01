@@ -3,7 +3,21 @@
   "version": "0.0.0-development",
   "description": "Test Repo for CI and semantic versioning",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      "next",
+      "next-major",
+      { "name": "beta", "prerelease": true },
+      { "name": "alpha", "prerelease": true }
+    ]
+  },
   "scripts": {
+    "build": "echo \"Building\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/alvarosaburido/ci-semantic-tester/issues"
   },
-  "homepage": "https://github.com/alvarosaburido/ci-semantic-tester#readme"
+  "homepage": "https://github.com/alvarosaburido/ci-semantic-tester#readme",
+  "devDependencies": {
+    "semantic-release": "^17.1.2"
+  }
 }
