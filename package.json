@@ -1,6 +1,6 @@
 {
   "name": "ci-semantic-tester",
-  "version": "5.0.0",
+  "version": "0.0.0-development",
   "description": "Test Repo for CI and semantic versioning",
   "main": "index.js",
   "publishConfig": {
